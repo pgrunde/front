@@ -1,0 +1,66 @@
+{
+  "name": "thunderdome",
+  "version": "1.0.0",
+  "description": "Galvanize's client-side stack: Backbone/React with ES2015",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp",
+    "test": "./node_modules/karma/bin/karma start ./test/karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Galvanize-IT/thunderdome.git"
+  },
+  "keywords": [
+    "Less",
+    "LiveReload",
+    "Gulp",
+    "Backbone",
+    "React",
+    "Babel",
+    "ESLint"
+  ],
+  "author": "Galvanize Product <dev@galvanize.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Galvanize-IT/thunderdome/issues"
+  },
+  "homepage": "https://github.com/Galvanize-IT/thunderdome",
+  "devDependencies": {
+    "babel-core": "^5.6.18",
+    "babel-eslint": "^3.1.23",
+    "babel-loader": "^5.3.1",
+    "chai": "^3.0.0",
+    "eslint": "^0.24.1",
+    "eslint-plugin-react": "^2.7.0",
+    "express": "^4.13.1",
+    "express-http-proxy": "^0.6.0",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-eslint": "^0.15.0",
+    "gulp-less": "^3.0.3",
+    "gulp-livereload": "^3.8.0",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.3",
+    "gulp-uglify": "^1.2.0",
+    "gulp-webpack": "^1.5.0",
+    "karma": "^0.12.37",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-mocha": "^0.2.0",
+    "karma-webpack": "^1.5.1",
+    "mocha": "^2.2.5",
+    "node-libs-browser": "^0.5.2",
+    "sinon": "^1.15.4",
+    "webpack": "^1.10.1"
+  },
+  "dependencies": {
+    "backbone": "^1.2.1",
+    "bootstrap": "^3.3.5",
+    "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "underscore": "^1.8.3"
+  }
+}
